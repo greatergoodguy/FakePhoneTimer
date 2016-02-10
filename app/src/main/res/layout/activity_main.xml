@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/activity_main_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter number of seconds (max 60)" />
+
+    <Button
+        android:id="@+id/activity_main_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"/>
+
+
+</LinearLayout>
